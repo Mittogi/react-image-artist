@@ -48,20 +48,20 @@ export function AppSidebar() {
 
         <SidebarGroup>
           <SidebarGroupContent>
-            <SidebarMenu>
-              <SidebarMenuItem>
+            <SidebarMenu className="list-none">
+              <SidebarMenuItem className="list-none">
                 <SidebarMenuButton className="flex items-center space-x-3 p-3 hover:bg-gray-50 rounded-lg">
                   <Droplet className="w-5 h-5 text-teal-500" />
                   <span>Xu hướng</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
-              <SidebarMenuItem>
+              <SidebarMenuItem className="list-none">
                 <SidebarMenuButton className="flex items-center space-x-3 p-3 hover:bg-gray-50 rounded-lg">
                   <Bookmark className="w-5 h-5 text-teal-500" />
                   <span>Đánh dấu</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
-              <SidebarMenuItem>
+              <SidebarMenuItem className="list-none">
                 <SidebarMenuButton className="flex items-center space-x-3 p-3 hover:bg-gray-50 rounded-lg">
                   <Clock className="w-5 h-5 text-teal-500" />
                   <span>Lịch sử</span>
@@ -89,19 +89,19 @@ export function AppSidebar() {
 
         {/* Bottom Section */}
         <div className="mt-8 space-y-2">
-          <SidebarMenuItem>
+          <SidebarMenuItem className="list-none">
             <SidebarMenuButton className="flex items-center space-x-3 p-3 hover:bg-gray-50 rounded-lg">
               <HelpCircle className="w-5 h-5 text-teal-500" />
               <span>Trợ giúp</span>
             </SidebarMenuButton>
           </SidebarMenuItem>
-          <SidebarMenuItem>
+          <SidebarMenuItem className="list-none">
             <SidebarMenuButton className="flex items-center space-x-3 p-3 hover:bg-gray-50 rounded-lg">
               <BookOpen className="w-5 h-5 text-teal-500" />
               <span>Góp ý</span>
             </SidebarMenuButton>
           </SidebarMenuItem>
-          <SidebarMenuItem>
+          <SidebarMenuItem className="list-none">
             <SidebarMenuButton className="flex items-center space-x-3 p-3 hover:bg-gray-50 rounded-lg">
               <Settings className="w-5 h-5 text-teal-500" />
               <span>Cài đặt</span>
